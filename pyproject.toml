@@ -1,0 +1,16 @@
+[project]
+name = "prodigy-bd-03-1"
+version = "0.1.0"
+description = "Adding role based authentication using JWT"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bcrypt-flask>=1.0.2",
+    "dotenv>=0.9.9",
+    "flask>=3.1.1",
+    "flask-jwt-extended>=4.7.1",
+    "flask-migrate>=4.1.0",
+    "flask-restful>=0.3.10",
+    "flask-sqlalchemy>=3.1.1",
+    "pymysql>=1.1.1",
+]
